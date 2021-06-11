@@ -1,2 +1,2 @@
 # LNATextView
-An iOS textview which supports placeholder.
+An iOS Textview supports set placeholder (text, font, textColor).
