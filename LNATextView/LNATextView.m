@@ -23,6 +23,10 @@
     return self;
 }
 
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 - (void)layoutSubviews {
     if (self.placeholder && [self.placeholder isKindOfClass:[NSString class]] && self.placeholder.length > 0) {
         UIEdgeInsets textContainerInset = self.textContainerInset;
