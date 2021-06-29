@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'LNATextView'
-  s.version      = '1.0'
+  s.version      = '1.0.1'
   s.summary      = 'An iOS textview which supports placeholder.'
   s.homepage     = 'https://github.com/leonadev/LNATextView.git'
   s.license      = 'MIT'
